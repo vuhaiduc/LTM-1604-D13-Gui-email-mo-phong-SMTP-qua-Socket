@@ -118,6 +118,15 @@ Luồng hoạt động:
 
 ---
 
+<div align="center">
+
+Thực hiện bởi Hải Đức - CNTT1604, Đại học Đại Nam
+
+Website • GitHub • Contact Me
+
+</div>
+
+
 
 
 
