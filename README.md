@@ -46,6 +46,7 @@ Kiến trúc hệ thống:
 | thất bại            |                +-----------------------+
 +---------------------+
 
+```
 Luồng hoạt động:
 
 - Người dùng mở GUI, kết nối server.  
@@ -90,6 +91,7 @@ Luồng hoạt động:
    ```bash
    git clone https://github.com/yourusername/smtp-socket-demo.git
    cd smtp-socket-demo
+
 
 
 
