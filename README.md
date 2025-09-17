@@ -116,12 +116,8 @@ Luồng hoạt động:
 ## 📞 5. Liên hệ
 - 📧 Email: your_email@example.com
 
---- 
-<p align= "center">
- <em>
-     README được viết bởi Hai Duc
- </em>
-</p>
+
+
 
 
 
