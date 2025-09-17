@@ -66,7 +66,7 @@ Luồng hoạt động:
 
 <p align="center">
     <em>Email được lưu ra file trong thư mục /emails</em><br/>
-    <<img width="1920" height="1080" alt="File Email" src="https://github.com/user-attachments/assets/c0eff120-686b-4541-b3cf-3d43a3cda3ee" />
+    <img width="1514" height="777" alt="File Email" src="https://github.com/user-attachments/assets/9a712b83-8481-4d91-a6e3-59414e9c9bc1" />
 </p>
 
 ---
@@ -76,6 +76,7 @@ Luồng hoạt động:
    ```bash
    git clone https://github.com/yourusername/smtp-socket-demo.git
    cd smtp-socket-demo
+
 
 
 
