@@ -30,6 +30,7 @@ Hệ thống gồm 2 thành phần:
 
 Kiến trúc hệ thống:
 
+```txt
   +-----------------+                     +------------------+
 |  CLIENT GUI     |  TCP Socket / SMTP   |   SMTP SERVER    |
 | (Người dùng)    |-------------------->| (Nhận, phân tích)|
@@ -89,6 +90,7 @@ Luồng hoạt động:
    ```bash
    git clone https://github.com/yourusername/smtp-socket-demo.git
    cd smtp-socket-demo
+
 
 
 
