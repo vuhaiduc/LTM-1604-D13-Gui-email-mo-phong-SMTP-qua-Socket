@@ -31,11 +31,11 @@ Hệ thống gồm 2 thành phần:
 Kiến trúc hệ thống:
 
 ```txt
-  +-----------------+                     +------------------+
-|  CLIENT GUI     |  TCP Socket / SMTP   |   SMTP SERVER    |
++-----------------+                     +------------------+
+|  CLIENT GUI     |  TCP Socket / SMTP  |   SMTP SERVER    |
 | (Người dùng)    |-------------------->| (Nhận, phân tích)|
 | Nhập Email      |<--------------------| (Xử lý SMTP)     |
-| To/From/Subject |  Phản hồi SMTP       |                  |
+| To/From/Subject |  Phản hồi SMTP      |                  |
 +-----------------+                     +------------------+
         |                                       |
         |                                       |
@@ -91,6 +91,17 @@ Luồng hoạt động:
    ```bash
    git clone https://github.com/yourusername/smtp-socket-demo.git
    cd smtp-socket-demo
+
+2. **Mở project trong IDE**
+3. **Cấu hình JDK**
+4. **Chạy Server**
+5. **Chạy Client GUI**
+6. **Kết nối và gửi email**
+7. **Kiểm tra file email**
+
+
+
+
 
 
 
