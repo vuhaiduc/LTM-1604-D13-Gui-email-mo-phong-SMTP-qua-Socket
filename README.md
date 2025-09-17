@@ -19,29 +19,6 @@
 
 </div>
 
-
-<h2 align="center">
-    <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
-    🎓 Faculty of Information Technology (DaiNam University)
-    </a>
-</h2>
-<h2 align="center">
-   📧 ỨNG DỤNG GỬI EMAIL QUA SOCKET – MÔ PHỎNG SMTP
-</h2>
-<div align="center">
-    <p align="center">
-        <img src="docs/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
-        <img src="docs/fitdnu_logo.png" alt="FIT DNU Logo" width="180"/>
-        <img src="docs/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
-    </p>
-
-    <p align="center">
-        <a href="https://www.facebook.com/DNUAIoTLab"><img src="https://img.shields.io/badge/AIoTLab-green?style=for-the-badge" alt="AIoTLab"></a>
-        <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin"><img src="https://img.shields.io/badge/Faculty%20of%20Information%20Technology-blue?style=for-the-badge" alt="FIT DNU"></a>
-        <a href="https://dainam.edu.vn"><img src="https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge" alt="DaiNam University"></a>
-    </p>
-</div>
-
 ---
 
 ## 📖 1. Giới thiệu hệ thống
@@ -99,5 +76,6 @@ Luồng hoạt động:
    ```bash
    git clone https://github.com/yourusername/smtp-socket-demo.git
    cd smtp-socket-demo
+
 
 
