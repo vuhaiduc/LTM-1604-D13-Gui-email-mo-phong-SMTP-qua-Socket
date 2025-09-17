@@ -110,6 +110,18 @@ Luồng hoạt động:
 7. **Kiểm tra file email**
    - Vào thư mục emails/ của server.
    - Email sẽ được lưu dưới dạng ``` bash email_yyyyMMdd_HHmmss.txt ```.
+  
+---
+
+## 📞 5. Liên hệ
+- 📧 Email: your_email@example.com
+
+--- 
+<p align= "center">
+ <em>
+     README được viết bởi Hai Duc
+ </em>
+</p>
 
 
 
