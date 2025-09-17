@@ -88,7 +88,7 @@ Luồng hoạt động:
 - Nội dung gồm phần header (người gửi, người nhận, tiêu đề) và body.
 
 ## 🖼️ Giao diện
-Một số ảnh minh họa giao diện Client GUI và Server Console:
+Hình ảnh giao diện Client GUI và Server Console:
 
 <p align="center">
 <img width="1220" height="517" alt="image" src="https://github.com/user-attachments/assets/8dcd1ea8-59f9-47c5-888d-b7b70302babe" />
@@ -101,7 +101,9 @@ Một số ảnh minh họa giao diện Client GUI và Server Console:
 ## 🔧 Công cụ
 
 <div align="center">
-
+    
+### Công nghệ cốt lõi
+    
 [![Java](https://img.shields.io/badge/Java%2017-orange?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)  
 [![Swing](https://img.shields.io/badge/Java%20Swing-007396?style=for-the-badge&logoColor=white)]()  
 [![Socket](https://img.shields.io/badge/TCP%20Socket-000000?style=for-the-badge)]()
@@ -121,6 +123,7 @@ Một số ảnh minh họa giao diện Client GUI và Server Console:
    ```bash
    git clone https://github.com/yourusername/smtp-socket-demo.git
    cd smtp-socket-demo
+
 
 
 
