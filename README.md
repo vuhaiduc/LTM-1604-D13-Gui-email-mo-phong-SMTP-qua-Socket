@@ -30,9 +30,7 @@ Hệ thống gồm 2 thành phần:
 
 Kiến trúc hệ thống:
 
-    <pre> ```txt +-----------------+ TCP Socket +----------------+ | CLIENT GUI | --------------------> | SMTP SERVER | | (Người dùng) | <-------------------- | (Xử lý SMTP, | | Nhập Email) | Phản hồi SMTP | Lưu Email) | +-----------------+ +----------------+ | v +-----------------+ | File .eml/.txt | | Lưu Email | +-----------------+ ``` </pre>
-
-
+   <pre> ```txt +-------------+ TCP Socket +-------------+ | CLIENT GUI | -------------> | SMTP SERVER | | (Người dùng)| <------------- | (Xử lý SMTP)| +-------------+ +-------------+ | | v v +----------------+ | File email.txt | +----------------+ ``` </pre>
 Luồng hoạt động:
 
 - Người dùng mở GUI, kết nối server.  
@@ -77,6 +75,7 @@ Luồng hoạt động:
    ```bash
    git clone https://github.com/yourusername/smtp-socket-demo.git
    cd smtp-socket-demo
+
 
 
 
