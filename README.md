@@ -91,7 +91,7 @@ Luồng hoạt động:
 Một số ảnh minh họa giao diện Client GUI và Server Console:
 
 <p align="center">
-<img width="1920" height="1017" alt="image" src="https://github.com/user-attachments/assets/8dcd1ea8-59f9-47c5-888d-b7b70302babe" />
+<img width="1620" height="817" alt="image" src="https://github.com/user-attachments/assets/8dcd1ea8-59f9-47c5-888d-b7b70302babe" />
 
   <br>
   <em>Hình 1. Giao diện ứng dụng Client (nhập Host, Port, Người gửi, Người nhận, Tiêu đề, Nội dung…)</em>
@@ -132,3 +132,4 @@ Một số ảnh minh họa giao diện Client GUI và Server Console:
    ```bash
    git clone https://github.com/yourusername/smtp-socket-demo.git
    cd smtp-socket-demo
+
