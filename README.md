@@ -94,20 +94,9 @@ Một số ảnh minh họa giao diện Client GUI và Server Console:
 <img width="1220" height="517" alt="image" src="https://github.com/user-attachments/assets/8dcd1ea8-59f9-47c5-888d-b7b70302babe" />
 
   <br>
-  <em>Hình 1. Giao diện ứng dụng Client (nhập Host, Port, Người gửi, Người nhận, Tiêu đề, Nội dung…)</em>
+  <em> Giao diện ứng dụng Client (nhập Host, Port, Người gửi, Người nhận, Tiêu đề, Nội dung…)</em>
 </p>
 
-<p align="center">
-  <img src="images/server_console.png" alt="Giao diện Server Console" width="600"/>
-  <br>
-  <em>Hình 2. Giao diện console Server (hiển thị lệnh SMTP nhận được và thông báo lưu email)</em>
-</p>
-
-<p align="center">
-  <img src="images/email_file.png" alt="File email lưu trên server" width="600"/>
-  <br>
-  <em>Hình 3. File email đã lưu trên máy chủ</em>
-</p>
 
 ## 🔧 Công cụ
 
@@ -132,5 +121,6 @@ Một số ảnh minh họa giao diện Client GUI và Server Console:
    ```bash
    git clone https://github.com/yourusername/smtp-socket-demo.git
    cd smtp-socket-demo
+
 
 
