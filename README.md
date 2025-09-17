@@ -61,12 +61,12 @@ Luồng hoạt động:
 
 <p align="center">
     <em>Giao diện console Server (hiển thị log và lưu email)</em><br/>
-    <img width="1220" height="517" alt="UI Server" src="docs/server_console.png" />
+    <img width="1920" height="1017" alt="UI Server" src="https://github.com/user-attachments/assets/166e9262-6add-4697-94e7-4aa06f6675d9" />
 </p>
 
 <p align="center">
     <em>Email được lưu ra file trong thư mục /emails</em><br/>
-    <img width="673" height="502" alt="File email" src="docs/email_file.png" />
+    <<img width="1920" height="1080" alt="File Email" src="https://github.com/user-attachments/assets/c0eff120-686b-4541-b3cf-3d43a3cda3ee" />
 </p>
 
 ---
@@ -76,6 +76,7 @@ Luồng hoạt động:
    ```bash
    git clone https://github.com/yourusername/smtp-socket-demo.git
    cd smtp-socket-demo
+
 
 
 
