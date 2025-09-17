@@ -93,11 +93,24 @@ Luồng hoạt động:
    cd smtp-socket-demo
 
 2. **Mở project trong IDE**
+   - Dùng IntelliJ IDEA, Eclipse hoặc NetBeans.
+   - Import project Java bình thường.
 3. **Cấu hình JDK**
+   - Chọn JDK 17 hoặc cao hơn (cài đặt nếu chưa có).
 4. **Chạy Server**
+   - Mở file SMTPServer.java trong IDE.
+   - Run as Java Application → Server lắng nghe port 2525.
 5. **Chạy Client GUI**
+   - Mở file SMTPClientGUI.java trong IDE.
+   - Run as Java Application → mở giao diện người dùng.
 6. **Kết nối và gửi email**
+   - Nhập Host (IP của server) và Port (2525).
+   - Nhập Người gửi, Người nhận, Tiêu đề, Nội dung.
+   - Bấm Kết nối để mở socket, sau đó bấm Gửi Email.
 7. **Kiểm tra file email**
+   - Vào thư mục emails/ của server.
+   - Email sẽ được lưu dưới dạng ``` bash email_yyyyMMdd_HHmmss.txt ```.
+
 
 
 
