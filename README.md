@@ -113,18 +113,20 @@ Luồng hoạt động:
   
 ---
 
-## 📞 5. Liên hệ
-- 📧 Email: your_email@example.com
+## 💬 5. Liên hệ
+- 📧 Email: Ducbeohd1000@gmail.com
+- 📞 Hotline: 0963453615
 
 ---
 
 <div align="center">
 
-Thực hiện bởi Hải Đức - CNTT1604, Đại học Đại Nam
+Thực hiện bởi Vũ Hải Đức - CNTT1604, Đại học Đại Nam
 
 Website • GitHub • Contact Me
 
 </div>
+
 
 
 
