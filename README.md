@@ -89,8 +89,8 @@ Luồng hoạt động:
 ## 🛠️ 4. Các bước cài đặt
 1. **Clone source code**  
    ```bash
-   git clone https://github.com/yourusername/smtp-socket-demo.git
-   cd smtp-socket-demo
+   git clone https://github.com/vuhaiduc/LTM-1604-D13-Gui-email-mo-phong-SMTP-qua-Socket.git
+   cd LTM-1604-D13-Gui-email-mo-phong-SMTP-qua-Socket
 
 2. **Mở project trong IDE**
    - Dùng IntelliJ IDEA, Eclipse hoặc NetBeans.
@@ -126,6 +126,7 @@ Thực hiện bởi Vũ Hải Đức - CNTT1604, Đại học Đại Nam
 Website • GitHub • Contact Me
 
 </div>
+
 
 
 
