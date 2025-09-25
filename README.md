@@ -132,11 +132,12 @@ Luồng hoạt động:
 
 <div align="center">
 
-Thực hiện bởi Vũ Hải Đức - CNTT1604, trường Đại học Đại Nam
+Thực hiện bởi Vũ Hải Đức - CNTT 16-04, trường Đại học Đại Nam
 
 Website • GitHub • Contact Me
 
 </div>
+
 
 
 
