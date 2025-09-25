@@ -73,17 +73,17 @@ Luồng hoạt động:
 
 <p align="center">
     <em>Giao diện người gửi và người nhận</em><br/>
-    <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b8272e7b-8e74-4b7c-891b-baebba9978e9" />
+    <img width="1920" height="1017" alt="Screenshot (289)" src="https://github.com/user-attachments/assets/d61ca3e1-0921-4e68-8f41-21e70cda7027" />
 </p>
 
 <p align="center">
     <em>Giao diện console Server (hiển thị log và lưu email)</em><br/>
-    <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/44d15d0c-59e9-43e5-8f97-d94b08441e99" />
+    <img width="1920" height="1009" alt="Screenshot (290)" src="https://github.com/user-attachments/assets/900731a2-7833-4ac3-af6d-55cc1e570fe1" />
 </p>
 
 <p align="center">
     <em>Hiển thị email và lưu trữ email trong file txt /emails</em><br/>
-    <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/53f339d5-61ad-4c7e-bbca-e3e6130e0494" />
+    <img width="1920" height="1009" alt="Screenshot (291)" src="https://github.com/user-attachments/assets/163c32d5-6a98-4da6-a735-0e7662ea9154" />
 </p>
 
 ---
@@ -133,6 +133,7 @@ Thực hiện bởi Vũ Hải Đức - CNTT1604, trường Đại học Đại N
 Website • GitHub • Contact Me
 
 </div>
+
 
 
 
