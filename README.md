@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align="center">
-   Gửi email mô phỏng SMTP qua Socket
+   GỬI EMAIL MÔ PHỎNG SMTP QUA SOCKET
 </h2>
 <div align="center">
     <p align="center">
@@ -125,8 +125,7 @@ Luồng hoạt động:
 ---
 
 ## 💬 5. Liên hệ
-- 📧 Email: Ducbeohd1000@gmail.com
-- 📞 Hotline: 0963453615
+📧 Email: Ducbeohd1000@gmail.com
 
 ---
 
@@ -137,6 +136,7 @@ Thực hiện bởi Vũ Hải Đức - CNTT 16-04, trường Đại học Đại
 Website • GitHub • Contact Me
 
 </div>
+
 
 
 
