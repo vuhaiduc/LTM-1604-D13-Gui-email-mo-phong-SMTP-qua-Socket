@@ -50,8 +50,10 @@ Kiến trúc hệ thống:
 Luồng hoạt động:
 
 - Người dùng mở GUI, kết nối server.  
-- GUI gửi các lệnh SMTP → server nhận, phản hồi và ghi nội dung email vào file.  
-- Toàn bộ truyền thông dựa trên giao thức TCP Socket.
+- GUI gửi các lệnh SMTP tới server qua socket.  
+- Server nhận lệnh, kiểm tra receiver đang lắng nghe, gửi email tới receiver.
+- Email được lưu vào file chỉ khi receiver thực sự nhận.
+- GUI nhận phản hồi trạng thái gửi thành công hoặc thất bại.
 
 ---
 
@@ -70,18 +72,18 @@ Luồng hoạt động:
 ## 🖼️ 3. Một số hình ảnh hệ thống 
 
 <p align="center">
-    <em>Giao diện ứng dụng Client (nhập Host, Port, Người gửi, Người nhận, Tiêu đề, Nội dung…)</em><br/>
-    <img width="1220" height="517" alt="UI Client" src="https://github.com/user-attachments/assets/8dcd1ea8-59f9-47c5-888d-b7b70302babe" />
+    <em>Giao diện người gửi và người nhận</em><br/>
+    <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b8272e7b-8e74-4b7c-891b-baebba9978e9" />
 </p>
 
 <p align="center">
     <em>Giao diện console Server (hiển thị log và lưu email)</em><br/>
-    <img width="1920" height="1017" alt="UI Server" src="https://github.com/user-attachments/assets/166e9262-6add-4697-94e7-4aa06f6675d9" />
+    <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/44d15d0c-59e9-43e5-8f97-d94b08441e99" />
 </p>
 
 <p align="center">
-    <em>Email được lưu ra file trong thư mục /emails</em><br/>
-    <img width="1514" height="777" alt="File Email" src="https://github.com/user-attachments/assets/9a712b83-8481-4d91-a6e3-59414e9c9bc1" />
+    <em>Hiển thị email và lưu trữ email trong file txt /emails</em><br/>
+    <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/53f339d5-61ad-4c7e-bbca-e3e6130e0494" />
 </p>
 
 ---
@@ -96,7 +98,7 @@ Luồng hoạt động:
    - Dùng IntelliJ IDEA, Eclipse hoặc NetBeans.
    - Import project Java bình thường.
 3. **Cấu hình JDK**
-   - Chọn JDK 17 hoặc cao hơn (cài đặt nếu chưa có).
+   - Chọn JDK 17 hoặc cao hơn.
 4. **Chạy Server**
    - Mở file SMTPServer.java trong IDE.
    - Run as Java Application → Server lắng nghe port 2525.
@@ -104,11 +106,16 @@ Luồng hoạt động:
    - Mở file SMTPClientGUI.java trong IDE.
    - Run as Java Application → mở giao diện người dùng.
 6. **Kết nối và gửi email**
-   - Nhập Host (IP của server) và Port (2525).
+   - Nhập Host (IP của server thường là localhost) và Port (2525).
    - Nhập Người gửi, Người nhận, Tiêu đề, Nội dung.
    - Bấm Kết nối để mở socket, sau đó bấm Gửi Email.
+
+  Lưu ý:
+   - Nếu receiver chưa lắng nghe, sender sẽ nhận thông báo lỗi ``` "Không có receiver đang lắng nghe!" ```
+   - Receiver phải nhấn Bắt đầu lắng nghe thì mới nhận được email.
 7. **Kiểm tra file email**
    - Vào thư mục emails/ của server.
+   - Email được lưu chỉ khi receiver nhận
    - Email sẽ được lưu dưới dạng ``` bash email_yyyyMMdd_HHmmss.txt ```.
   
 ---
@@ -121,11 +128,12 @@ Luồng hoạt động:
 
 <div align="center">
 
-Thực hiện bởi Vũ Hải Đức - CNTT1604, Đại học Đại Nam
+Thực hiện bởi Vũ Hải Đức - CNTT1604, trường Đại học Đại Nam
 
 Website • GitHub • Contact Me
 
 </div>
+
 
 
 
