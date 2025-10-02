@@ -28,25 +28,6 @@ Hệ thống gồm 2 thành phần:
 - **Client GUI (Java Swing)**: nhập Host, Port, Người gửi, Người nhận, Tiêu đề, Nội dung; gửi lệnh SMTP qua Socket.  
 - **SMTP Server (Java)**: lắng nghe port (mặc định 2525), xử lý các lệnh `HELO`, `MAIL FROM`, `RCPT TO`, `DATA`, `QUIT` và lưu email nhận được vào file hệ thống.
 
-Kiến trúc hệ thống:
-
-```txt
-+-----------------+                     +------------------+
-|  CLIENT GUI     |  TCP Socket / SMTP  |   SMTP SERVER    |
-| (Người dùng)    |-------------------->| (Nhận, phân tích)|
-| Nhập Email      |<--------------------| (Xử lý SMTP)     |
-| To/From/Subject |  Phản hồi SMTP      |                  |
-+-----------------+                     +------------------+
-        |                                       |
-        |                                       |
-        v                                       v
-+---------------------+                +-----------------------+
-| Thông báo trạng thái|                |   Bộ ghi File Email   |
-| gửi thành công/     |                | (.eml / .txt / log)   |
-| thất bại            |                +-----------------------+
-+---------------------+
-
-```
 Luồng hoạt động:
 
 - Người dùng mở GUI, kết nối server.  
@@ -136,6 +117,7 @@ Thực hiện bởi Vũ Hải Đức - CNTT 16-04, trường Đại học Đại
 Website • GitHub • Contact Me
 
 </div>
+
 
 
 
