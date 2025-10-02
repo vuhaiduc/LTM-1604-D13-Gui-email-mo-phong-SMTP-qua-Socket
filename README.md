@@ -72,7 +72,7 @@ Luồng hoạt động:
 ## 🖼️ 3. Một số hình ảnh hệ thống 
 
 <p align="center">
-    <img width="1920" height="1017" alt="Screenshot (289)" src="https://github.com/user-attachments/assets/d61ca3e1-0921-4e68-8f41-21e70cda7027" />
+    <img width="1920" height="1009" alt="Screenshot (299)" src="https://github.com/user-attachments/assets/e5e644ee-94f6-411f-9389-36cf7f3c18ea" />
     <em>Giao diện người gửi và người nhận</em><br/>
 </p>
 
@@ -136,6 +136,7 @@ Thực hiện bởi Vũ Hải Đức - CNTT 16-04, trường Đại học Đại
 Website • GitHub • Contact Me
 
 </div>
+
 
 
 
