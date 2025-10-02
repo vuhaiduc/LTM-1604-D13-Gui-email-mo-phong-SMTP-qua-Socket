@@ -86,7 +86,7 @@ Luồng hoạt động:
 
 
 <p align="center">
-    <img width="1920" height="1013" alt="Screenshot (302)" src="https://github.com/user-attachments/assets/a88d3a22-cbdb-43cf-940d-7e3bc29160a0" />
+    <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/48d9d9ec-7e85-480c-935f-e951babdddb9" />
     <em>Hiển thị email và lưu trữ email trong file txt /emails</em><br/>
 </p>
 
@@ -136,6 +136,7 @@ Thực hiện bởi Vũ Hải Đức - CNTT 16-04, trường Đại học Đại
 Website • GitHub • Contact Me
 
 </div>
+
 
 
 
