@@ -79,14 +79,14 @@ Luồng hoạt động:
 
 
 <p align="center">
-    <img width="1920" height="1009" alt="Screenshot (290)" src="https://github.com/user-attachments/assets/900731a2-7833-4ac3-af6d-55cc1e570fe1" />
+    <img width="1920" height="1009" alt="Screenshot (301)" src="https://github.com/user-attachments/assets/40fb1a3d-71e8-4383-913f-be278bb8ecfb" />
     <em>Giao diện console Server (hiển thị log và lưu email)</em><br/>
 </p>
 
 
 
 <p align="center">
-    <img width="1920" height="1009" alt="Screenshot (291)" src="https://github.com/user-attachments/assets/163c32d5-6a98-4da6-a735-0e7662ea9154" />
+    <img width="1920" height="1013" alt="Screenshot (302)" src="https://github.com/user-attachments/assets/a88d3a22-cbdb-43cf-940d-7e3bc29160a0" />
     <em>Hiển thị email và lưu trữ email trong file txt /emails</em><br/>
 </p>
 
@@ -136,6 +136,7 @@ Thực hiện bởi Vũ Hải Đức - CNTT 16-04, trường Đại học Đại
 Website • GitHub • Contact Me
 
 </div>
+
 
 
 
