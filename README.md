@@ -25,23 +25,22 @@
 Đề tài xây dựng ứng dụng **gửi email mô phỏng giao thức SMTP qua TCP Socket**.  
 Hệ thống gồm 2 thành phần:
 
-- **Client GUI (Java Swing)**: nhập Host, Port, Người gửi, Người nhận, Tiêu đề, Nội dung; gửi lệnh SMTP qua Socket.  
-- **SMTP Server (Java)**: lắng nghe port (mặc định 2525), xử lý các lệnh `HELO`, `MAIL FROM`, `RCPT TO`, `DATA`, `QUIT` và lưu email nhận được vào file hệ thống.
+- **Client GUI (Java Swing)**: Cung cấp giao diện đồ hoạ cho người dùng (trang đăng ký, đăng nhập, trang soạn mail và hộp thư đến ).  
+- **SMTP Server (Java)**: Chạy nền và lắng nghe các kết nối TCP từ nhiều client trên port 2525 và 2626, xử lý các lệnh SMTP chuẩn, quản lý danh sách người dùng và gửi mail tới người nhận tương ứng.
 
 Luồng hoạt động:
 
-- Người dùng mở GUI, kết nối server.  
-- GUI gửi các lệnh SMTP tới server qua socket.  
-- Server nhận lệnh, kiểm tra receiver đang lắng nghe, gửi email tới receiver.
-- Email được lưu vào file chỉ khi receiver thực sự nhận.
-- GUI nhận phản hồi trạng thái gửi thành công hoặc thất bại.
+- Người dùng mở ra giao diện đăng ký, đăng nhập.
+- Tạo ra 2 tài khoản là người gửi và người nhận.
+- Client người nhận sẽ nhận mail từ người gửi và email sẽ hiển thị trực tiếp trên giao diện hộp thư.
+- Email được lưu vào file /emails/ kèm thời gian gửi.
 
 ---
 
 ## ⚙️ 2. Công nghệ sử dụng
 Ứng dụng được phát triển bằng:
 - **Ngôn ngữ lập trình**: <a href="https://www.oracle.com/java/"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"></a>
-- **Thư viện UI**: <a href="https://docs.oracle.com/javase/tutorial/uiswing/"><img src="https://img.shields.io/badge/Java%20Swing-007396?style=for-the-badge&logo=java&logoColor=white" alt="Swing"></a>
+- **Giao diện người dùng**: <a href="https://docs.oracle.com/javase/tutorial/uiswing/"><img src="https://img.shields.io/badge/Java%20Swing-007396?style=for-the-badge&logo=java&logoColor=white" alt="Swing"></a>
 - **Socket**: <img src="https://img.shields.io/badge/TCP%20Socket-000000?style=for-the-badge" alt="Socket">
 
 - **Kiến trúc**:  
@@ -85,19 +84,18 @@ Luồng hoạt động:
 3. **Cấu hình JDK**
    - Chọn JDK 17 hoặc cao hơn.
 4. **Chạy Server**
-   - Mở file SMTPServer.java trong IDE.
+   - Mở file smtpserver/ServerMain.java.
    - Run as Java Application → Server lắng nghe port 2525.
+   - Console sẽ hiển thị log kết nối khi có client đăng nhập hoặc gửi email.
 5. **Chạy Client GUI**
-   - Mở file SMTPClientGUI.java trong IDE.
+   - Mở file smtpclient/ClientLoginUI.java (giao diện người gửi).
+   - Mở file smtpclient/ReceiverLoginUI.java (giao diện người nhận).
    - Run as Java Application → mở giao diện người dùng.
 6. **Kết nối và gửi email**
-   - Nhập Host (IP của server thường là localhost) và Port (2525).
-   - Nhập Người gửi, Người nhận, Tiêu đề, Nội dung.
-   - Bấm Kết nối để mở socket, sau đó bấm Gửi Email.
+   - Nhập email người nhận để gửi.
+   - Nhập Người nhận, Tiêu đề, Nội dung, File kèm theo.
+   - Người nhận với tài khoản đăng nhập khác sẽ nhận Mail ngay lập tức và xem trực tiếp trong giao diện.
 
-  Lưu ý:
-   - Nếu receiver chưa lắng nghe, sender sẽ nhận thông báo lỗi ``` "Không có receiver đang lắng nghe!" ```
-   - Receiver phải nhấn Bắt đầu lắng nghe thì mới nhận được email.
 7. **Kiểm tra file email**
    - Vào thư mục emails/ của server.
    - Email được lưu chỉ khi receiver nhận
@@ -117,6 +115,7 @@ Thực hiện bởi Vũ Hải Đức - CNTT 16-04, trường Đại học Đại
 Website • GitHub • Contact Me
 
 </div>
+
 
 
 
