@@ -52,22 +52,24 @@ Luồng hoạt động:
 ## 🖼️ 3. Một số hình ảnh hệ thống 
 
 <p align="center">
-    <img width="1920" height="1009" alt="Screenshot (299)" src="https://github.com/user-attachments/assets/e5e644ee-94f6-411f-9389-36cf7f3c18ea" />
+    <img width="1920" height="1013" alt="Screenshot (344)" src="https://github.com/user-attachments/assets/6efbda8b-a30a-408d-8bd0-0dca949885ca" />
     <em>Giao diện người gửi và người nhận</em><br/>
 </p>
 
 
 
 <p align="center">
-    <img width="1920" height="1009" alt="Screenshot (301)" src="https://github.com/user-attachments/assets/40fb1a3d-71e8-4383-913f-be278bb8ecfb" />
-    <em>Giao diện console Server (hiển thị log và lưu email)</em><br/>
+    <img width="1920" height="1009" alt="Screenshot (345)" src="https://github.com/user-attachments/assets/1b6c366f-da11-4c2a-b1aa-751b737a8ff8" />
+
+    <em>Giao diện console Server</em><br/>
 </p>
 
 
 
 <p align="center">
-    <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/48d9d9ec-7e85-480c-935f-e951babdddb9" />
-    <em>Hiển thị email và lưu trữ email trong file txt /emails</em><br/>
+    <img width="1920" height="1013" alt="Screenshot (346)" src="https://github.com/user-attachments/assets/31576cc3-6b7f-4174-83d9-a81baa0bc83e" />
+
+    <em>Hình ảnh sau khi gửi Email</em><br/>
 </p>
 
 ---
@@ -115,6 +117,7 @@ Thực hiện bởi Vũ Hải Đức - CNTT 16-04, trường Đại học Đại
 Website • GitHub • Contact Me
 
 </div>
+
 
 
 
