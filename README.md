@@ -67,7 +67,7 @@ Luồng hoạt động:
 
 <p align="center">
     <img width="1920" height="1013" alt="Screenshot (346)" src="https://github.com/user-attachments/assets/31576cc3-6b7f-4174-83d9-a81baa0bc83e" />
-    <em>Hình ảnh sau khi gửi Email</em><br/>
+    <em>Giao diện bên người nhận Email</em><br/>
 </p>
 
 ---
@@ -115,6 +115,7 @@ Thực hiện bởi Vũ Hải Đức - CNTT 16-04, trường Đại học Đại
 Website • GitHub • Contact Me
 
 </div>
+
 
 
 
